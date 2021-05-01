@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace NarenFitnessUsers.Models.Booking.Active
+{
+    public class FinalOutPutBActive
+    {
+        public string status { get; set; }
+
+        public List<GetBookingrootActive> value { get; set; }
+    }
+}
